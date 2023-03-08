@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardBackgroundColor="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="15dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="1"
+                android:textColor="@android:color/black"
+                android:id="@+id/txt_nomor"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txt_nama"
+                android:textStyle="normal"
+                android:layout_marginStart="10dp"
+                android:textColor="@android:color/black"
+                android:text="Doa Sebelum Tidur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_lafal"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_gravity="end"
+            android:text="بِاسْمِكَ اللَّهُمَّ أَمُوْتُ وَأَحْيَا" />
+        <TextView
+            android:id="@+id/txt_transliterasi"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            android:text="Bismika-llaahumma amuutu wa ahyaa."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txt_arti"
+            android:layout_marginTop="5dp"
+            android:text="Dengan Nama-Mu ya Allah, aku mati dan aku hidup."
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txt_riwayat"
+            android:layout_marginTop="5dp"
+            android:text="HR. Bukhari 6324."
+            android:textColor="@android:color/darker_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
